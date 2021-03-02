@@ -6,5 +6,5 @@ public interface Lock {
 
     void lock();
 
-    void unLock() throws KeeperException, InterruptedException;
+    void unLock();
 }
